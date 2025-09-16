@@ -1,43 +1,29 @@
-# 📊 My Matplotlib Learning Journey
+# 📊 My Matplotlib Journey
 
-Welcome to my repository! 🎉  
-This repo contains all the code, notes, and practice files I created while learning **Matplotlib**, a powerful Python library for data visualization.  
+This repository is dedicated to my learning journey with **Matplotlib**, one of the most powerful and widely used Python libraries for data visualization.  
+
+Throughout this journey, I explored **every type of graph** that Matplotlib offers, including:
+
+- Line Plot  
+- Bar Chart  
+- Histogram  
+- Scatter Plot  
+- Pie Chart  
+- Boxplot  
+- Stack Plot  
+- Area Plot  
+- 3D Plots  
+- Subplots and Multiple Graphs  
+
+Each visualization type has its own folder/code example in this repo.  
 
 ---
 
-## 📚 About
-- I’m documenting my progress in learning **Matplotlib step by step**.  
-- Each script represents different visualization techniques and experiments.  
-- The goal is to get hands-on practice with plotting and learn how to visualize data effectively.  
+## 🖼️ Example Code  
 
----
+Below is one example where I created **Line Plot**, **Histogram**, and **Boxplot** in a single figure using `subplots`:
 
-## ⚙️ Installation
-
-To run the code in this repository, you need to have Python installed along with Matplotlib.  
-You can install Matplotlib using pip:
-
-```bash
-
-pip install matplotlib
-
-
-Clone the repository:
-
-git clone https://github.com/your-username/matplotlib-learning.git
-
-
-Navigate into the project folder:
-
-cd matplotlib-learning
-
-
-Run any Python script, for example:
-
-python day01_line_plot.p
-
-
-Example Code
+```python
 import matplotlib.pyplot as plt
 
 fig, axs = plt.subplots(1, 3, figsize=(15, 5))
@@ -62,3 +48,18 @@ axs[2].set_xlabel("Salary")
 
 plt.savefig("multipleplots.png")
 plt.show()
+```
+
+## 📷 Screenshots  
+
+Here are some example outputs from my Matplotlib journey:  
+
+### Multiple Plots (Line, Histogram, Boxplot)
+![Multiple Plots](multipleplots.png)
+
+### Scatter Plot
+![Scatter Plot](scatter_plots/scatter_example.png)
+
+### Pie Chart
+![Pie Chart](pie_charts/pie_example.png)
+
