@@ -49,17 +49,12 @@ axs[2].set_xlabel("Salary")
 plt.savefig("multipleplots.png")
 plt.show()
 ```
+ 
 
-## 📷 Screenshots  
-
-Here are some example outputs from my Matplotlib journey:  
+Here is output of example code:  
 
 ### Multiple Plots (Line, Histogram, Boxplot)
 ![Multiple Plots](multipleplots.png)
 
-### Scatter Plot
-![Scatter Plot](scatter.png)
 
-### Pie Chart
-![Pie Chart](piechart.png)
 
