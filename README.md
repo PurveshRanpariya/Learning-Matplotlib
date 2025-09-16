@@ -58,8 +58,8 @@ Here are some example outputs from my Matplotlib journey:
 ![Multiple Plots](multipleplots.png)
 
 ### Scatter Plot
-![Scatter Plot](scatter_plots/scatter_example.png)
+![Scatter Plot](scatter.png)
 
 ### Pie Chart
-![Pie Chart](pie_charts/pie_example.png)
+![Pie Chart](piechart.png)
 
